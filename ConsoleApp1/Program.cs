@@ -68,7 +68,7 @@ namespace PR2025
         {
             bool success = false;
             string name;
-            int salary = 0;
+            uint salary = 0;
             string position = string.Empty;
 
             do
@@ -84,7 +84,7 @@ namespace PR2025
                 {
                     success = true;
                     Console.Write("Salary: ");
-                    int.TryParse(Console.ReadLine(), out salary);
+                    uint.TryParse(Console.ReadLine(), out salary);
                     Console.Write("Position: ");
                     position = Console.ReadLine() ?? string.Empty;
                 }

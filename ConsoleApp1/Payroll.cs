@@ -8,7 +8,7 @@ namespace PR2025
             employees = new List<Employee>();
         }
 
-        internal void AddEmployee(int id, string name, string position, int salary)
+        internal void AddEmployee(int id, string name, string position, uint salary)
         {
             employees.Add(new Employee(id, name, position, salary));
         }

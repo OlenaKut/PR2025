@@ -5,9 +5,9 @@ namespace PR2025
         public int Id { get; set; }
         public string Name { get; set; }
         public string Position { get; set; }
-        public int Salary { get; set; }
+        public uint Salary { get; set; }
 
-        public Employee(int id, string name, string position, int salary)
+        public Employee(int id, string name, string position, uint salary)
         {
             Id = id;
             Name = name;
